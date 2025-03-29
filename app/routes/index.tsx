@@ -1,4 +1,3 @@
-// app/routes/index.tsx
 import * as fs from 'node:fs';
 import { createFileRoute, useRouter } from '@tanstack/react-router';
 import { createServerFn } from '@tanstack/react-start';
@@ -31,7 +30,6 @@ export const Route = createFileRoute('/')({
 
 function Home() {
 	const router = useRouter();
-	// eslint-disable-next-line ts/no-unsafe-assignment
 	const state = Route.useLoaderData();
 
 	return (
