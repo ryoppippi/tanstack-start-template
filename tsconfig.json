@@ -1,19 +1,20 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
+		"target": "ES2022",
 		"jsx": "react-jsx",
-		// Environment setup & latest features
-		"lib": ["esnext"],
+		"lib": ["DOM", "DOM.Iterable", "ES2022"],
 		"moduleDetection": "force",
 		"module": "ESNext",
 
 		// Bundler mode
 		"moduleResolution": "bundler",
+		"resolveJsonModule": true,
 		"allowImportingTsExtensions": true,
 		"allowJs": true,
 
 		// Best practices
 		"strict": true,
+		"strictNullChecks": true,
 		"noFallthroughCasesInSwitch": true,
 		"noPropertyAccessFromIndexSignature": false,
 		"noUncheckedIndexedAccess": true,
@@ -22,6 +23,7 @@
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
 		"noEmit": true,
+		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
 		"skipLibCheck": true
 	}

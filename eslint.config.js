@@ -9,4 +9,5 @@ export default ryoppippi({
 	typescript: {
 		tsconfigPath: './tsconfig.json',
 	},
+	ignores: ['app/routeTree.gen.ts'],
 });
