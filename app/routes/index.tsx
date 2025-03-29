@@ -50,3 +50,16 @@ function Home() {
 		</button>
 	);
 }
+
+if (import.meta.vitest != null) {
+	describe('app/routes/index', () => {
+		it('readCount', async () => {
+			expect(await readCount()).toBe(0);
+		});
+
+		it('updateCount', async () => {
+			await updateCount({ data: 1 });
+			expect(await readCount()).toBe(1);
+		});
+	});
+}
