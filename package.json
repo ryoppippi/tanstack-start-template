@@ -8,6 +8,8 @@
 		"start": "vinxi start",
 		"lint": "eslint --cache .",
 		"format": "nr lint --fix",
+		"test": "vitest",
+		"test:ui": "vitest --ui",
 		"prepare": "husky"
 	},
 	"peerDependencies": {
@@ -30,13 +32,15 @@
 		"@types/react": "^19.0.12",
 		"@types/react-dom": "^19.0.4",
 		"@vitejs/plugin-react": "^4.3.4",
+		"@vitest/ui": "^3.0.9",
 		"eslint": "^9.23.0",
 		"eslint-plugin-format": "^1.0.1",
 		"eslint-plugin-react-hooks": "^5.2.0",
 		"eslint-plugin-react-refresh": "^0.4.19",
 		"husky": "^9.1.7",
 		"lint-staged": "^15.5.0",
-		"vite-tsconfig-paths": "^5.1.4"
+		"vite-tsconfig-paths": "^5.1.4",
+		"vitest": "^3.0.9"
 	},
 	"lint-staged": {
 		"*": [
