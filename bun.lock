@@ -13,7 +13,7 @@
       "devDependencies": {
         "@antfu/ni": "^24.3.0",
         "@eslint-react/eslint-plugin": "^1.38.4",
-        "@ryoppippi/eslint-config": "^0.2.3",
+        "@ryoppippi/eslint-config": "^0.3.4",
         "@tanstack/eslint-plugin-query": "^5.68.0",
         "@tanstack/eslint-plugin-router": "^1.114.29",
         "@types/bun": "latest",
@@ -335,7 +335,7 @@
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.37.0", "", { "os": "win32", "cpu": "x64" }, "sha512-LWbXUBwn/bcLx2sSsqy7pK5o+Nr+VCoRoAohfJ5C/aBio9nfJmGQqHAhU6pwxV/RmyTk5AqdySma7uwWGlmeuA=="],
 
-    "@ryoppippi/eslint-config": ["@ryoppippi/eslint-config@0.2.3", "", { "dependencies": { "@antfu/eslint-config": "^4.11.0", "@antfu/ni": "^24.3.0", "defu": "^6.1.4", "eslint-flat-config-utils": "^2.0.1", "eslint-plugin-ryoppippi": "^0.2.2", "pkg-types": "^2.1.0" }, "peerDependencies": { "@next/eslint-plugin-next": "^15.2.4", "@tanstack/eslint-plugin-query": ">= 5.68.0", "@tanstack/eslint-plugin-router": ">= 1.114.12", "eslint": ">= 9.23.0", "eslint-plugin-tailwindcss": "^3.18.0" }, "optionalPeers": ["@next/eslint-plugin-next", "@tanstack/eslint-plugin-query", "@tanstack/eslint-plugin-router", "eslint-plugin-tailwindcss"] }, "sha512-9LhsQNrnSMQKUeINN1Eev8Crjg6Doign7IGP4sDSel8GgPBJsWHiZy2lQxogeqeNREWEBXXltM5jAUM7alrx5Q=="],
+    "@ryoppippi/eslint-config": ["@ryoppippi/eslint-config@0.3.4", "", { "dependencies": { "@antfu/eslint-config": "^4.11.0", "@antfu/ni": "^24.3.0", "defu": "^6.1.4", "eslint-flat-config-utils": "^2.0.1", "eslint-plugin-ryoppippi": "^0.2.2", "pkg-types": "^2.1.0" }, "peerDependencies": { "@next/eslint-plugin-next": "^15.2.4", "@tanstack/eslint-plugin-query": ">= 5.68.0", "@tanstack/eslint-plugin-router": ">= 1.114.12", "eslint": ">= 9.23.0", "eslint-plugin-tailwindcss": "^3.18.0" }, "optionalPeers": ["@next/eslint-plugin-next", "@tanstack/eslint-plugin-query", "@tanstack/eslint-plugin-router", "eslint-plugin-tailwindcss"] }, "sha512-iecU1VVuRDmRSWPnpU1+/X/U35YRUp586ejnWN3Qg8FSjqpz16pTG1lq83NA7v8gOZrtHC5dDhPM03Xd0g/FSQ=="],
 
     "@sindresorhus/is": ["@sindresorhus/is@7.0.1", "", {}, "sha512-QWLl2P+rsCJeofkDNIT3WFmb6NrRud1SUYW8dIhXK/46XFV8Q/g7Bsvib0Askb0reRLe+WYPeeE+l5cH7SlkuQ=="],
 

@@ -1,13 +1,10 @@
-import { ryoppippi } from '@ryoppippi/eslint-config';
+import { ryoppippi } from '@ryoppippi/eslint-config/tanstack-start';
 
 export default ryoppippi({
 	type: 'app', // or 'lib'
-	svelte: false,
-	react: true,
-	tanstackQuery: true,
-	tanstackRouter: true,
+	tailwindcss: false,
+	appDirectory: './app',
 	typescript: {
 		tsconfigPath: './tsconfig.json',
 	},
-	ignores: ['app/routeTree.gen.ts'],
 });
