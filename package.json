@@ -55,5 +55,30 @@
 			"eslint --fix",
 			"git add"
 		]
+	},
+	"changelogithub": {
+		"types": {
+			"feat": {
+				"title": "🚀 Features"
+			},
+			"fix": {
+				"title": "🐞 Bug Fixes"
+			},
+			"perf": {
+				"title": "🏎 Performance"
+			},
+			"docs": {
+				"title": "📝 Documentation"
+			},
+			"test": {
+				"title": "🧪 Tests"
+			},
+			"refactor": {
+				"title": "💅 Refactors"
+			},
+			"ci": {
+				"title": "🤖 CI"
+			}
+		}
 	}
 }
