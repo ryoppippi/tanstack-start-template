@@ -6,6 +6,9 @@ import {
 	Scripts,
 } from '@tanstack/react-router';
 
+import 'uno.css';
+import '@unocss/reset/tailwind-compat.css';
+
 export const Route = createRootRoute({
 	head: () => ({
 		meta: [

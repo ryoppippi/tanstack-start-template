@@ -1,4 +1,5 @@
 import { defineConfig } from '@tanstack/react-start/config';
+import UnoCSS from 'unocss/vite';
 import tsConfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
@@ -11,6 +12,7 @@ export default defineConfig({
 			'import.meta.vitest': 'undefined',
 		},
 		plugins: [
+			UnoCSS(),
 			tsConfigPaths({
 				projects: ['./tsconfig.json'],
 			}),
