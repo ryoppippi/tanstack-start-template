@@ -1,34 +1,19 @@
-# dependencies (bun install)
 node_modules
 
-# output
-out
-dist
-*.tgz
-
-# code coverage
-coverage
-*.lcov
-
-# logs
-logs
-_.log
-report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
-
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-
-# caches
 .eslintcache
+
 .cache
-*.tsbuildinfo
+.env
+.vercel
+.output
+.vinxi
 
-# IntelliJ based IDEs
-.idea
+.env
+.env.local
+.env.development
+.env.test
+.env.production
 
-# Finder (MacOS) folder config
-.DS_Store
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+/.vite-inspect
