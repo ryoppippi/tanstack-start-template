@@ -19,6 +19,8 @@
 	"dependencies": {
 		"@tanstack/react-router": "^1.114.29",
 		"@tanstack/react-start": "^1.114.30",
+		"@unocss/reset": "66.1.0-beta.7",
+		"clsx": "^2.1.1",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
 		"vinxi": "^0.5.3"
@@ -35,9 +37,7 @@
 		"@types/react": "^19.0.12",
 		"@types/react-dom": "^19.0.4",
 		"@unocss/preset-attributify": "66.1.0-beta.7",
-		"@unocss/reset": "66.1.0-beta.7",
 		"@vitest/ui": "^3.0.9",
-		"clsx": "^2.1.1",
 		"eslint": "^9.23.0",
 		"eslint-plugin-format": "^1.0.1",
 		"eslint-plugin-react-hooks": "^5.2.0",
