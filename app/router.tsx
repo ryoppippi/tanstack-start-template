@@ -1,4 +1,3 @@
-/* eslint-disable ts/consistent-type-definitions */
 import { createRouter as createTanStackRouter } from '@tanstack/react-router';
 import { routeTree } from './routeTree.gen';
 
