@@ -2,6 +2,7 @@
 	"name": "@ryoppippi/tanstack-start-template",
 	"type": "module",
 	"private": true,
+	"packageManager": "pnpm@10.7.0",
 	"scripts": {
 		"dev": "vinxi dev",
 		"build": "vinxi build",
