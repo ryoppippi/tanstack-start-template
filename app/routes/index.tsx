@@ -35,11 +35,11 @@ function Home() {
 	return (
 		<button
 			type="button"
-			onClick={() => {
-				void updateCount({ data: 1 }).then(async () => {
-					await router.invalidate();
-				});
-			}}
+			onClick={
+				async () =>
+					updateCount({ data: 1 })
+						.then(async () => router.invalidate())
+			}
 		>
 			Add 1 to
 			{' '}
