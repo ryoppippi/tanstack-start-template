@@ -11,11 +11,11 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as IndexImport } from './routes/index'
+import { Route as PageImport } from './routes/page'
 
 // Create/Update Routes
 
-const IndexRoute = IndexImport.update({
+const PageRoute = PageImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRoute,
@@ -29,7 +29,7 @@ declare module '@tanstack/react-router' {
       id: '/'
       path: '/'
       fullPath: '/'
-      preLoaderRoute: typeof IndexImport
+      preLoaderRoute: typeof PageImport
       parentRoute: typeof rootRoute
     }
   }
@@ -38,16 +38,16 @@ declare module '@tanstack/react-router' {
 // Create and export the route tree
 
 export interface FileRoutesByFullPath {
-  '/': typeof IndexRoute
+  '/': typeof PageRoute
 }
 
 export interface FileRoutesByTo {
-  '/': typeof IndexRoute
+  '/': typeof PageRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
-  '/': typeof IndexRoute
+  '/': typeof PageRoute
 }
 
 export interface FileRouteTypes {
@@ -60,11 +60,11 @@ export interface FileRouteTypes {
 }
 
 export interface RootRouteChildren {
-  IndexRoute: typeof IndexRoute
+  PageRoute: typeof PageRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
-  IndexRoute: IndexRoute,
+  PageRoute: PageRoute,
 }
 
 export const routeTree = rootRoute
@@ -81,7 +81,7 @@ export const routeTree = rootRoute
       ]
     },
     "/": {
-      "filePath": "index.tsx"
+      "filePath": "page.tsx"
     }
   }
 }
