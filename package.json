@@ -37,6 +37,7 @@
 		"@types/bun": "latest",
 		"@types/react": "^19.0.12",
 		"@types/react-dom": "^19.0.4",
+		"@unocss/eslint-plugin": "66.1.0-beta.8",
 		"@unocss/preset-attributify": "66.1.0-beta.7",
 		"@vitest/ui": "^3.0.9",
 		"eslint": "^9.23.0",
