@@ -12,10 +12,10 @@ export default defineConfig({
 			'import.meta.vitest': 'undefined',
 		},
 		plugins: [
-			UnoCSS(),
 			tsConfigPaths({
 				projects: ['./tsconfig.json'],
 			}),
+			UnoCSS(),
 		],
 	},
 });

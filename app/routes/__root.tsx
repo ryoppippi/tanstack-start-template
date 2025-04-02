@@ -5,12 +5,16 @@ import {
 	Outlet,
 	Scripts,
 } from '@tanstack/react-router';
-
-import 'uno.css';
-import '@unocss/reset/tailwind-compat.css';
+import tailwindReset from '@unocss/reset/tailwind.css?url';
+import unoCss from '../uno.css?url'; // for production
+import 'virtual:uno.css'; // for development
 
 export const Route = createRootRoute({
 	head: () => ({
+		links: [
+			{ rel: 'stylesheet', href: tailwindReset },
+			{ rel: 'stylesheet', href: unoCss },
+		],
 		meta: [
 			{
 				charSet: 'utf-8',

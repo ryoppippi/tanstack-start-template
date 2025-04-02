@@ -5,13 +5,15 @@
 	"packageManager": "pnpm@10.7.0",
 	"scripts": {
 		"dev": "vinxi dev",
-		"build": "vinxi build",
+		"build": "nr build:css && nr build:app",
+		"build:css": "unocss ./app/**/*.tsx --out-file ./app/uno.css",
+		"build:app": "vinxi build",
 		"start": "vinxi start",
 		"lint": "eslint --cache .",
 		"format": "nr lint --fix",
 		"test": "vitest",
 		"test:ui": "vitest --ui",
-		"prepare": "husky"
+		"prepare": "husky && touch ./app/uno.css"
 	},
 	"peerDependencies": {
 		"typescript": "^5.8.2"
@@ -37,6 +39,7 @@
 		"@types/bun": "latest",
 		"@types/react": "^19.0.12",
 		"@types/react-dom": "^19.0.4",
+		"@unocss/cli": "66.1.0-beta.8",
 		"@unocss/eslint-plugin": "66.1.0-beta.8",
 		"@unocss/preset-attributify": "66.1.0-beta.7",
 		"@vitest/ui": "^3.0.9",
