@@ -18,8 +18,8 @@ importers:
         specifier: ^1.114.34
         version: 1.115.0(@tanstack/react-router@1.115.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@types/node@22.13.14)(db0@0.3.1)(ioredis@5.6.0)(jiti@2.4.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(terser@5.39.0)(tsx@4.19.3)(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.1))(yaml@2.7.1)
       '@unocss/reset':
-        specifier: 66.1.0-beta.7
-        version: 66.1.0-beta.7
+        specifier: 66.1.0-beta.8
+        version: 66.1.0-beta.8
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1705,6 +1705,9 @@ packages:
 
   '@unocss/reset@66.1.0-beta.7':
     resolution: {integrity: sha512-6GAvIfcuEGkx3rryIHWaF6Uwh0QZJYJTmDog/88X2He8v1yGR2RfrUSrrYUf8KfmLQYSZ/u7WazLwJTVmpvjaQ==}
+
+  '@unocss/reset@66.1.0-beta.8':
+    resolution: {integrity: sha512-2HBIV3UXr18p6nXVhKEgQDGbHWlh7+Qp2n5Oq6jpqy+ke2rBhlwSn0qvsECfiuzogOzEy6nldTsNwQw8rJjjAA==}
 
   '@unocss/rule-utils@66.1.0-beta.7':
     resolution: {integrity: sha512-oJ5lcHRgN1aabsszkBXoiYp0G6LLM011BJoAEfKOeRZ14FGFlg0zuOi/h7aKlVuIvBt6q8BWosJLlZSAQnNypg==}
@@ -6618,6 +6621,8 @@ snapshots:
       '@unocss/preset-wind3': 66.1.0-beta.7
 
   '@unocss/reset@66.1.0-beta.7': {}
+
+  '@unocss/reset@66.1.0-beta.8': {}
 
   '@unocss/rule-utils@66.1.0-beta.7':
     dependencies:
