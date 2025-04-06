@@ -41,7 +41,7 @@
 		"@types/react-dom": "^19.0.4",
 		"@unocss/cli": "66.1.0-beta.8",
 		"@unocss/eslint-plugin": "66.1.0-beta.8",
-		"@unocss/preset-attributify": "66.1.0-beta.7",
+		"@unocss/preset-attributify": "66.1.0-beta.8",
 		"@vitest/ui": "^3.0.9",
 		"eslint": "^9.23.0",
 		"eslint-plugin-format": "^1.0.1",
