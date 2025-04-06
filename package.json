@@ -19,7 +19,7 @@
 		"typescript": "^5.8.2"
 	},
 	"dependencies": {
-		"@tanstack/react-query": "^5.71.0",
+		"@tanstack/react-query": "^5.71.5",
 		"@tanstack/react-router": "^1.114.29",
 		"@tanstack/react-start": "^1.114.30",
 		"@unocss/reset": "66.1.0-beta.7",
