@@ -7,6 +7,18 @@ export default defineConfig({
 		indexToken: 'page',
 		routeToken: 'layout',
 	},
+	react: {
+		babel: {
+			plugins: [
+				[
+					'babel-plugin-react-compiler',
+					{
+						target: '19',
+					},
+				],
+			],
+		},
+	},
 	vite: {
 		define: {
 			'import.meta.vitest': 'undefined',

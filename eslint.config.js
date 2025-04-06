@@ -1,4 +1,5 @@
 import { ryoppippi } from '@ryoppippi/eslint-config/tanstack-start';
+import reactCompiler from 'eslint-plugin-react-compiler';
 
 export default ryoppippi({
 	type: 'app', // or 'lib'
@@ -8,4 +9,5 @@ export default ryoppippi({
 	typescript: {
 		tsconfigPath: './tsconfig.json',
 	},
+	...reactCompiler.configs.recommended,
 });
