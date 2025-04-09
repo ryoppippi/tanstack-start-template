@@ -12,7 +12,7 @@ importers:
         specifier: ^5.71.10
         version: 5.71.10(react@19.1.0)
       '@tanstack/react-router':
-        specifier: ^1.114.34
+        specifier: ^1.115.0
         version: 1.115.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-start':
         specifier: ^1.114.34
@@ -59,7 +59,7 @@ importers:
         version: 1.114.29(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
       '@types/bun':
         specifier: latest
-        version: 1.2.8
+        version: 1.2.9
       '@types/react':
         specifier: ^19.1.0
         version: 19.1.0
@@ -1542,8 +1542,8 @@ packages:
   '@types/braces@3.0.5':
     resolution: {integrity: sha512-SQFof9H+LXeWNz8wDe7oN5zu7ket0qwMu5vZubW4GCJ8Kkeh6nBWUz87+KTz/G3Kqsrp0j/W253XJb3KMEeg3w==}
 
-  '@types/bun@1.2.8':
-    resolution: {integrity: sha512-t8L1RvJVUghW5V+M/fL3Thbxcs0HwNsXsnTEBEfEVqGteiJToOlZ/fyOEaR1kZsNqnu+3XA4RI/qmnX4w6+S+w==}
+  '@types/bun@1.2.9':
+    resolution: {integrity: sha512-epShhLGQYc4Bv/aceHbmBhOz1XgUnuTZgcxjxk+WXwNyDXavv5QHD1QEFV0FwbTSQtNq6g4ZcV6y0vZakTjswg==}
 
   '@types/cookie@0.6.0':
     resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
@@ -2099,8 +2099,8 @@ packages:
     resolution: {integrity: sha512-p1n8zyCkt1BVrKNFymOHjcDSAl7oq/gUvfgULv2EblgpPVQlQr9yHnWjg9IJ2MhfwPqiYqMMrr01OY7yQoK2yA==}
     engines: {node: '>=18.20'}
 
-  bun-types@1.2.7:
-    resolution: {integrity: sha512-P4hHhk7kjF99acXqKvltyuMQ2kf/rzIw3ylEDpCxDS9Xa0X0Yp/gJu/vDCucmWpiur5qJ0lwB2bWzOXa2GlHqA==}
+  bun-types@1.2.9:
+    resolution: {integrity: sha512-dk/kOEfQbajENN/D6FyiSgOKEuUi9PWfqKQJEgwKrCMWbjS/S6tEXp178mWvWAcUSYm9ArDlWHZKO3T/4cLXiw==}
 
   c12@3.0.2:
     resolution: {integrity: sha512-6Tzk1/TNeI3WBPpK0j/Ss4+gPj3PUJYbWl/MWDJBThFvwNGNkXtd7Cz8BJtD4aRwoGHtzQD0SnxamgUiBH0/Nw==}
@@ -6439,9 +6439,9 @@ snapshots:
 
   '@types/braces@3.0.5': {}
 
-  '@types/bun@1.2.8':
+  '@types/bun@1.2.9':
     dependencies:
-      bun-types: 1.2.7
+      bun-types: 1.2.9
 
   '@types/cookie@0.6.0': {}
 
@@ -7166,7 +7166,7 @@ snapshots:
 
   builtin-modules@4.0.0: {}
 
-  bun-types@1.2.7:
+  bun-types@1.2.9:
     dependencies:
       '@types/node': 22.13.14
       '@types/ws': 8.18.0
