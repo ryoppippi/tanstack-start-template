@@ -73,8 +73,8 @@ importers:
         specifier: 66.1.0-beta.10
         version: 66.1.0-beta.10(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
       '@unocss/preset-attributify':
-        specifier: 66.1.0-beta.8
-        version: 66.1.0-beta.8
+        specifier: 66.1.0-beta.10
+        version: 66.1.0-beta.10
       '@vitest/ui':
         specifier: ^3.1.1
         version: 3.1.1(vitest@3.0.9)
@@ -1733,6 +1733,9 @@ packages:
     engines: {node: '>=14'}
     peerDependencies:
       postcss: ^8.4.21
+
+  '@unocss/preset-attributify@66.1.0-beta.10':
+    resolution: {integrity: sha512-Rue15+sGta598wezB9NEcKiLmBFNjaAiPYCsVUU2+3RrrF/H59Uq9RBgQ/9SDn9wCT+mxYcn/aIDaIQzDog1Tg==}
 
   '@unocss/preset-attributify@66.1.0-beta.8':
     resolution: {integrity: sha512-Lz82t+KOpp9MMF+G5rPVSP1gwxZaO+yQTdpsgA6PbdD77K1lWA2a7KPnxv7/Co5FO0aTG4ArrX0nhNG24nU93w==}
@@ -6747,6 +6750,10 @@ snapshots:
       css-tree: 3.1.0
       postcss: 8.5.3
       tinyglobby: 0.2.12
+
+  '@unocss/preset-attributify@66.1.0-beta.10':
+    dependencies:
+      '@unocss/core': 66.1.0-beta.10
 
   '@unocss/preset-attributify@66.1.0-beta.8':
     dependencies:
