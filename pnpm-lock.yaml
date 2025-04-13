@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@tanstack/react-query':
-        specifier: ^5.72.1
+        specifier: ^5.72.2
         version: 5.72.2(react@19.1.0)
       '@tanstack/react-router':
         specifier: ^1.115.2
