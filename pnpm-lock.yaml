@@ -33,7 +33,7 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
       vinxi:
-        specifier: ^0.5.3
+        specifier: ^0.5.4
         version: 0.5.4(@types/node@22.14.0)(db0@0.3.1)(ioredis@5.6.0)(jiti@2.4.2)(terser@5.39.0)(tsx@4.19.3)(yaml@2.7.1)
     devDependencies:
       '@antfu/ni':
@@ -6781,7 +6781,7 @@ snapshots:
       consola: 3.4.2
       defu: 6.1.4
       get-port-please: 3.1.2
-      h3: 1.13.0
+      h3: 1.15.1
       http-shutdown: 1.2.2
       jiti: 1.21.7
       mlly: 1.7.4

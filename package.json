@@ -26,7 +26,7 @@
 		"clsx": "^2.1.1",
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0",
-		"vinxi": "^0.5.3"
+		"vinxi": "^0.5.4"
 	},
 	"devDependencies": {
 		"@antfu/ni": "^24.3.0",
