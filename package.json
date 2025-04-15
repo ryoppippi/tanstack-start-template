@@ -34,7 +34,7 @@
 		"@ryoppippi/eslint-config": "^0.3.7",
 		"@ryoppippi/unocss-preset": "^2.0.1",
 		"@std/collections": "npm:@jsr/std__collections@^1.0.10",
-		"@tanstack/eslint-plugin-query": "^5.72.2",
+		"@tanstack/eslint-plugin-query": "^5.73.3",
 		"@tanstack/eslint-plugin-router": "^1.115.0",
 		"@types/bun": "latest",
 		"@types/react": "^19.1.1",
