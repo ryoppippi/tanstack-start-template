@@ -61,7 +61,7 @@ importers:
         specifier: latest
         version: 1.2.9
       '@types/react':
-        specifier: ^19.1.0
+        specifier: ^19.1.1
         version: 19.1.1
       '@types/react-dom':
         specifier: ^19.1.2
