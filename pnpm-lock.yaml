@@ -82,7 +82,7 @@ importers:
         specifier: 19.0.0-beta-ebf51a3-20250411
         version: 19.0.0-beta-ebf51a3-20250411
       eslint:
-        specifier: ^9.24.0
+        specifier: ^9.25.0
         version: 9.25.0(jiti@2.4.2)
       eslint-plugin-format:
         specifier: ^1.0.1
