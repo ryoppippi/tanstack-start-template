@@ -20,7 +20,7 @@
 	},
 	"dependencies": {
 		"@tanstack/react-query": "^5.74.4",
-		"@tanstack/react-router": "^1.117.0",
+		"@tanstack/react-router": "^1.117.1",
 		"@tanstack/react-start": "^1.117.0",
 		"@unocss/reset": "66.1.0-beta.12",
 		"clsx": "^2.1.1",
