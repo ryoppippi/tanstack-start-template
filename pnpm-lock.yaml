@@ -12,7 +12,7 @@ importers:
         specifier: ^5.75.5
         version: 5.75.6(react@19.1.0)
       '@tanstack/react-router':
-        specifier: ^1.120.2
+        specifier: ^1.120.3
         version: 1.120.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-start':
         specifier: ^1.120.2
