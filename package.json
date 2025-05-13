@@ -51,7 +51,7 @@
 		"eslint-plugin-react-refresh": "^0.4.20",
 		"husky": "^9.1.7",
 		"lint-staged": "^15.5.2",
-		"msw": "^2.7.6",
+		"msw": "^2.8.2",
 		"unocss": "66.1.1",
 		"unocss-transformer-alias": "^0.0.8",
 		"vite-tsconfig-paths": "^5.1.4",
