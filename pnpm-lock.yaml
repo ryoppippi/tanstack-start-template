@@ -49,8 +49,8 @@ importers:
         specifier: ^2.0.1
         version: 2.0.1(unocss@66.1.1(postcss@8.5.3)(vite@6.3.4(@types/node@22.15.3)(jiti@2.4.2)(terser@5.39.0)(tsx@4.19.4)(yaml@2.7.1))(vue@3.5.13(typescript@5.8.3)))
       '@std/collections':
-        specifier: npm:@jsr/std__collections@^1.0.11
-        version: '@jsr/std__collections@1.0.11'
+        specifier: npm:@jsr/std__collections@^1.1.0
+        version: '@jsr/std__collections@1.1.0'
       '@tanstack/eslint-plugin-query':
         specifier: ^5.74.7
         version: 5.74.7(eslint@9.26.0(jiti@2.4.2))(typescript@5.8.3)
@@ -1142,8 +1142,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@jsr/std__collections@1.0.11':
-    resolution: {integrity: sha512-+W2f22Ki8HArKSzkDz5/SLtCIAb9GH6lIWcbAgF5TR8QYqjrCHVx/ZxeonLu2lWPwn8mmu/dYZxX5AmVUH1UHA==, tarball: https://npm.jsr.io/~/11/@jsr/std__collections/1.0.11.tgz}
+  '@jsr/std__collections@1.1.0':
+    resolution: {integrity: sha512-7ZWtcEp91LeR0AOcaO5jibuVmCVbK7U3+uc7cxXaiwG/LAZM86+DlA/iZK4gGgVCv2mplIctwMntiC8nngOXJQ==, tarball: https://npm.jsr.io/~/11/@jsr/std__collections/1.1.0.tgz}
 
   '@mapbox/node-pre-gyp@1.0.11':
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
@@ -6650,7 +6650,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@jsr/std__collections@1.0.11': {}
+  '@jsr/std__collections@1.1.0': {}
 
   '@mapbox/node-pre-gyp@1.0.11':
     dependencies:
