@@ -64,7 +64,7 @@ importers:
         specifier: ^19.1.4
         version: 19.1.4
       '@types/react-dom':
-        specifier: ^19.1.4
+        specifier: ^19.1.5
         version: 19.1.5(@types/react@19.1.4)
       '@unocss/cli':
         specifier: 66.1.1
