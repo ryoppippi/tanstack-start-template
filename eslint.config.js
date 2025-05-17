@@ -4,7 +4,7 @@ export default ryoppippi({
 	type: 'app', // or 'lib'
 	tailwindcss: false,
 	unocss: true,
-	appDirectory: './app',
+	appDirectory: './src',
 	typescript: {
 		tsconfigPath: './tsconfig.json',
 	},

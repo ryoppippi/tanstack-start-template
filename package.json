@@ -4,29 +4,27 @@
 	"private": true,
 	"packageManager": "pnpm@10.11.0",
 	"scripts": {
-		"dev": "vinxi dev",
-		"build": "nr build:css && nr build:app",
-		"build:css": "unocss ./app/**/*.tsx --out-file ./app/uno.css",
-		"build:app": "vinxi build",
-		"start": "vinxi start",
+		"dev": "vite dev",
+		"build": "vite build",
+		"start": "vite start",
 		"lint": "eslint --cache .",
 		"format": "nr lint --fix",
 		"test": "vitest",
 		"test:ui": "vitest --ui",
-		"prepare": "husky && touch ./app/uno.css"
+		"prepare": "husky && touch ./src/uno.css"
 	},
 	"peerDependencies": {
 		"typescript": "^5.8.3"
 	},
 	"dependencies": {
 		"@tanstack/react-query": "^5.76.1",
-		"@tanstack/react-router": "^1.120.3",
-		"@tanstack/react-start": "^1.120.3",
+		"@tanstack/react-router": "1.121.0-alpha.1",
+		"@tanstack/react-router-devtools": "^1.120.4-alpha.19",
+		"@tanstack/react-start": "1.121.0-alpha.1",
 		"@unocss/reset": "66.1.1",
 		"clsx": "^2.1.1",
 		"react": "^19.1.0",
-		"react-dom": "^19.1.0",
-		"vinxi": "^0.5.6"
+		"react-dom": "^19.1.0"
 	},
 	"devDependencies": {
 		"@antfu/ni": "^24.3.0",
@@ -39,7 +37,6 @@
 		"@types/bun": "latest",
 		"@types/react": "^19.1.4",
 		"@types/react-dom": "^19.1.5",
-		"@unocss/cli": "66.1.1",
 		"@unocss/eslint-plugin": "66.1.1",
 		"@unocss/preset-attributify": "66.1.1",
 		"@vitest/ui": "^3.1.3",
@@ -54,6 +51,7 @@
 		"msw": "^2.8.2",
 		"unocss": "66.1.1",
 		"unocss-transformer-alias": "^0.0.8",
+		"vite": "^6.3.5",
 		"vite-tsconfig-paths": "^5.1.4",
 		"vitest": "^3.1.3"
 	},
