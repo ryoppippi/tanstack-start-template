@@ -33,7 +33,7 @@ export default defineConfig({
 	],
 	test: {
 		globals: true,
-		includeSource: ['app/**/*.{js,ts,tsx}'],
+		includeSource: ['src/**/*.{js,ts,tsx}'],
 		setupFiles: ['vitest.setup.ts'],
 	},
 });
