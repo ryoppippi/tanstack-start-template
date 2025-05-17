@@ -6,14 +6,14 @@
 	"scripts": {
 		"dev": "vinxi dev",
 		"build": "nr build:css && nr build:app",
-		"build:css": "unocss ./app/**/*.tsx --out-file ./app/uno.css",
+		"build:css": "unocss ./src/**/*.tsx --out-file ./src/uno.css",
 		"build:app": "vinxi build",
 		"start": "vinxi start",
 		"lint": "eslint --cache .",
 		"format": "nr lint --fix",
 		"test": "vitest",
 		"test:ui": "vitest --ui",
-		"prepare": "husky && touch ./app/uno.css"
+		"prepare": "husky && touch ./src/uno.css"
 	},
 	"peerDependencies": {
 		"typescript": "^5.8.3"
