@@ -4,11 +4,11 @@
 	"private": true,
 	"packageManager": "pnpm@10.11.0",
 	"scripts": {
-		"dev": "vinxi dev",
+		"dev": "vite dev",
 		"build": "nr build:css && nr build:app",
 		"build:css": "unocss ./src/**/*.tsx --out-file ./src/uno.css",
-		"build:app": "vinxi build",
-		"start": "vinxi start",
+		"build:app": "vite build",
+		"start": "vite start",
 		"lint": "eslint --cache .",
 		"format": "nr lint --fix",
 		"test": "vitest",
@@ -26,8 +26,7 @@
 		"@unocss/reset": "66.1.1",
 		"clsx": "^2.1.1",
 		"react": "^19.1.0",
-		"react-dom": "^19.1.0",
-		"vinxi": "^0.5.6"
+		"react-dom": "^19.1.0"
 	},
 	"devDependencies": {
 		"@antfu/ni": "^24.3.0",
