@@ -19,3 +19,4 @@ vite.config.ts.timestamp-*
 /.vite-inspect
 
 app/uno.css
+.tanstack-start/
