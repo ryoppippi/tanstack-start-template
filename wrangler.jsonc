@@ -1,0 +1,13 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ryoppippi-tanstack-start-template",
+	"compatibility_date": "2025-04-16",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"main": "./.output/server/index.mjs",
+	"assets": {
+		"directory": "./.output/public/",
+		"binding": "ASSETS"
+	}
+}

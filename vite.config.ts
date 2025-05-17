@@ -1,3 +1,4 @@
+import { cloudflare } from '@cloudflare/vite-plugin';
 import { tanstackStart } from '@tanstack/react-start/plugin/vite';
 import UnoCSS from 'unocss/vite';
 import { defineConfig } from 'vite';
@@ -8,6 +9,7 @@ export default defineConfig({
 		port: 3000,
 	},
 	plugins: [
+		cloudflare(),
 		tsConfigPaths({
 			projects: ['./tsconfig.json'],
 		}),
@@ -17,6 +19,7 @@ export default defineConfig({
 				indexToken: 'page',
 				routeToken: 'layout',
 			},
+			target: 'cloudflare_module',
 			react: {
 				babel: {
 					plugins: [
