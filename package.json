@@ -49,7 +49,7 @@
 		"husky": "^9.1.7",
 		"lint-staged": "^16.0.0",
 		"msw": "^2.8.2",
-		"unocss": "66.1.1",
+		"unocss": "66.1.2",
 		"unocss-transformer-alias": "^0.0.8",
 		"vite": "^6.3.5",
 		"vite-tsconfig-paths": "^5.1.4",
