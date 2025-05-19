@@ -11,7 +11,7 @@
 		"format": "nr lint --fix",
 		"test": "vitest",
 		"test:ui": "vitest --ui",
-		"prepare": "husky && touch ./src/uno.css"
+		"prepare": "husky"
 	},
 	"peerDependencies": {
 		"typescript": "^5.8.3"
