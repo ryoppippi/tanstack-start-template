@@ -18,8 +18,8 @@ importers:
         specifier: ^1.120.10
         version: 1.120.10(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.121.0-alpha.14)(csstype@3.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tiny-invariant@1.3.3)
       '@tanstack/react-start':
-        specifier: 1.121.0-alpha.15
-        version: 1.121.0-alpha.15(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))
+        specifier: 1.121.0-alpha.16
+        version: 1.121.0-alpha.16(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))
       '@unocss/reset':
         specifier: 66.1.2
         version: 66.1.2
@@ -1198,8 +1198,8 @@ packages:
       react: '>=18.0.0 || >=19.0.0'
       react-dom: '>=18.0.0 || >=19.0.0'
 
-  '@tanstack/react-start@1.121.0-alpha.15':
-    resolution: {integrity: sha512-nVgoRW73WjM6KMPRbSYhKKtbF7vSNuYlPa45MYNqq4XAxnOS6XuBNVIs3V+iiw9GadqvAb3DOiNSpDSrjgbe6Q==}
+  '@tanstack/react-start@1.121.0-alpha.16':
+    resolution: {integrity: sha512-u8cHZh4eGaZocvBHj1Qj0RRKk6OcyPujc/h1Xwes4kua+z+FwDD0RY67b2L+HkY3YOIpgA6c1yb8xaHC7etiBA==}
     engines: {node: '>=12'}
     peerDependencies:
       '@vitejs/plugin-react': '>=4.3.4'
@@ -5934,7 +5934,7 @@ snapshots:
       unixify: 1.0.0
       urlpattern-polyfill: 8.0.2
       yargs: 17.7.2
-      zod: 3.24.4
+      zod: 3.25.32
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -6326,7 +6326,7 @@ snapshots:
       '@tanstack/start-plugin-core': 1.121.0-alpha.17(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))
       '@vitejs/plugin-react': 4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))
       vite: 6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)
-      zod: 3.24.4
+      zod: 3.25.32
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -6375,7 +6375,7 @@ snapshots:
       tiny-warning: 1.0.3
       unctx: 2.4.1
 
-  '@tanstack/react-start@1.121.0-alpha.15(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))':
+  '@tanstack/react-start@1.121.0-alpha.16(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))':
     dependencies:
       '@tanstack/react-start-client': 1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-start-plugin': 1.121.0-alpha.17(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))
@@ -6446,7 +6446,7 @@ snapshots:
       '@tanstack/virtual-file-routes': 1.121.0-alpha.1
       prettier: 3.5.3
       tsx: 4.19.4
-      zod: 3.24.4
+      zod: 3.25.32
     optionalDependencies:
       '@tanstack/react-router': 1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
@@ -6468,7 +6468,7 @@ snapshots:
       babel-dead-code-elimination: 1.0.10
       chokidar: 3.6.0
       unplugin: 2.3.4
-      zod: 3.24.4
+      zod: 3.25.32
     optionalDependencies:
       '@tanstack/react-router': 1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       vite: 6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)
@@ -6525,7 +6525,7 @@ snapshots:
       ufo: 1.6.1
       vite: 6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)
       xmlbuilder2: 3.1.1
-      zod: 3.24.4
+      zod: 3.25.32
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
