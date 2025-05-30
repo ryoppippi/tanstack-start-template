@@ -18,8 +18,8 @@ importers:
         specifier: ^1.120.11
         version: 1.120.12(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.121.0-alpha.14)(csstype@3.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tiny-invariant@1.3.3)
       '@tanstack/react-start':
-        specifier: 1.121.0-alpha.16
-        version: 1.121.0-alpha.16(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))
+        specifier: 1.121.0-alpha.17
+        version: 1.121.0-alpha.17(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))
       '@unocss/reset':
         specifier: 66.1.2
         version: 66.1.2
@@ -1198,8 +1198,8 @@ packages:
       react: '>=18.0.0 || >=19.0.0'
       react-dom: '>=18.0.0 || >=19.0.0'
 
-  '@tanstack/react-start@1.121.0-alpha.16':
-    resolution: {integrity: sha512-u8cHZh4eGaZocvBHj1Qj0RRKk6OcyPujc/h1Xwes4kua+z+FwDD0RY67b2L+HkY3YOIpgA6c1yb8xaHC7etiBA==}
+  '@tanstack/react-start@1.121.0-alpha.17':
+    resolution: {integrity: sha512-CkZQhuHEd61J0d4XUfZNgbX9fkgLNS+EST+D4VcH3jWxcIYn1wCStF4TAfnNLJgmUdUoKyUYFYt9J9OuxVtF/A==}
     engines: {node: '>=12'}
     peerDependencies:
       '@vitejs/plugin-react': '>=4.3.4'
@@ -6375,7 +6375,7 @@ snapshots:
       tiny-warning: 1.0.3
       unctx: 2.4.1
 
-  '@tanstack/react-start@1.121.0-alpha.16(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))':
+  '@tanstack/react-start@1.121.0-alpha.17(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))':
     dependencies:
       '@tanstack/react-start-client': 1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-start-plugin': 1.121.0-alpha.17(@tanstack/react-router@1.121.0-alpha.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@vitejs/plugin-react@4.4.1(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0)))(vite@6.3.5(@types/node@22.15.18)(jiti@2.4.2)(terser@5.39.2)(tsx@4.19.4)(yaml@2.8.0))
