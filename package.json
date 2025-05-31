@@ -47,7 +47,7 @@
 		"eslint-plugin-react-hooks": "6.0.0-rc1",
 		"eslint-plugin-react-refresh": "^0.4.20",
 		"husky": "^9.1.7",
-		"lint-staged": "^16.0.0",
+		"lint-staged": "^16.1.0",
 		"msw": "^2.8.5",
 		"unocss": "66.1.2",
 		"unocss-transformer-alias": "^0.0.8",
