@@ -2,4 +2,5 @@ onlyBuiltDependencies:
   - '@parcel/watcher'
   - esbuild
   - msw
+  - simple-git-hooks
   - unrs-resolver
