@@ -4,3 +4,4 @@ onlyBuiltDependencies:
   - msw
   - simple-git-hooks
   - unrs-resolver
+useNodeVersion: 22.15.1
