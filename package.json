@@ -39,7 +39,7 @@
 		"@types/react-dom": "^19.1.6",
 		"@unocss/eslint-plugin": "66.1.4",
 		"@unocss/preset-attributify": "66.1.4",
-		"@vitest/ui": "^3.2.2",
+		"@vitest/ui": "^3.2.3",
 		"babel-plugin-react-compiler": "19.1.0-rc.2",
 		"eslint": "^9.28.0",
 		"eslint-plugin-format": "^1.0.1",
