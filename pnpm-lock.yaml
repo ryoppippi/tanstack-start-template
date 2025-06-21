@@ -73,7 +73,7 @@ importers:
         specifier: 66.2.3
         version: 66.2.3
       '@vitest/ui':
-        specifier: ^3.2.3
+        specifier: ^3.2.4
         version: 3.2.4(vitest@3.2.4)
       babel-plugin-react-compiler:
         specifier: 19.1.0-rc.2
