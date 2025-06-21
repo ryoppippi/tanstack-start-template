@@ -49,7 +49,7 @@
 		"lint-staged": "^16.1.2",
 		"msw": "^2.10.2",
 		"simple-git-hooks": "^2.13.0",
-		"unocss": "66.2.0",
+		"unocss": "66.2.3",
 		"unocss-transformer-alias": "^0.0.8",
 		"vite": "npm:rolldown-vite@latest",
 		"vite-tsconfig-paths": "^5.1.4",
