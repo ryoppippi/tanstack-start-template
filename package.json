@@ -19,7 +19,7 @@
 	"dependencies": {
 		"@tanstack/react-query": "^5.81.5",
 		"@tanstack/react-router": "1.123.2",
-		"@tanstack/react-router-devtools": "^1.123.0",
+		"@tanstack/react-router-devtools": "^1.123.2",
 		"@tanstack/react-start": "1.122.1",
 		"@unocss/reset": "66.3.2",
 		"clsx": "^2.1.1",
