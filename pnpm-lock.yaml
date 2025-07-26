@@ -44,7 +44,7 @@ importers:
         version: 1.52.3(eslint@9.31.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3)
       '@ryoppippi/eslint-config':
         specifier: ^0.3.7
-        version: 0.3.7(@eslint-react/eslint-plugin@1.52.3(eslint@9.31.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@tanstack/eslint-plugin-query@5.81.2(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@tanstack/eslint-plugin-router@1.125.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@unocss/eslint-plugin@66.3.3(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.17)(eslint-plugin-format@1.0.1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-hooks@6.0.0-rc1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.20(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4)
+        version: 0.3.7(@eslint-react/eslint-plugin@1.52.3(eslint@9.31.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@tanstack/eslint-plugin-query@5.81.2(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@tanstack/eslint-plugin-router@1.129.7(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@unocss/eslint-plugin@66.3.3(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.17)(eslint-plugin-format@1.0.1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-hooks@6.0.0-rc1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.20(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4)
       '@ryoppippi/unocss-preset':
         specifier: ^2.0.1
         version: 2.0.1(unocss@66.3.3(postcss@8.5.6)(rolldown-vite@7.0.11(@types/node@24.0.15)(esbuild@0.25.8)(jiti@2.4.2)(terser@5.43.1)(tsx@4.20.3)(yaml@2.8.0))(vue@3.5.17(typescript@5.8.3)))
@@ -55,8 +55,8 @@ importers:
         specifier: ^5.81.2
         version: 5.81.2(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
       '@tanstack/eslint-plugin-router':
-        specifier: ^1.125.0
-        version: 1.125.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
+        specifier: ^1.129.7
+        version: 1.129.7(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
       '@types/bun':
         specifier: latest
         version: 1.2.19(@types/react@19.1.8)
@@ -1407,8 +1407,8 @@ packages:
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
 
-  '@tanstack/eslint-plugin-router@1.125.0':
-    resolution: {integrity: sha512-V/xh+O6gonn/SEfKlB3grGH8peRhL5SRrR49+s+qriKfbGoAG5BKUxPfJOgM00vY1BfI3xZNYCGDadEVOrrcTA==}
+  '@tanstack/eslint-plugin-router@1.129.7':
+    resolution: {integrity: sha512-Xe11jRhPCTbur6nrEkM3MtvIr8FUD0rHA0WQrYFpXKLk3bZ0hk3gQzgRSLP6lZ/nCRTQwNrR1FFkb52mC000Bg==}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
 
@@ -6428,7 +6428,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.45.1':
     optional: true
 
-  '@ryoppippi/eslint-config@0.3.7(@eslint-react/eslint-plugin@1.52.3(eslint@9.31.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@tanstack/eslint-plugin-query@5.81.2(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@tanstack/eslint-plugin-router@1.125.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@unocss/eslint-plugin@66.3.3(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.17)(eslint-plugin-format@1.0.1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-hooks@6.0.0-rc1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.20(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4)':
+  '@ryoppippi/eslint-config@0.3.7(@eslint-react/eslint-plugin@1.52.3(eslint@9.31.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@tanstack/eslint-plugin-query@5.81.2(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@tanstack/eslint-plugin-router@1.129.7(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@unocss/eslint-plugin@66.3.3(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.17)(eslint-plugin-format@1.0.1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-hooks@6.0.0-rc1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.20(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4)':
     dependencies:
       '@antfu/eslint-config': 4.17.0(@eslint-react/eslint-plugin@1.52.3(eslint@9.31.0(jiti@2.4.2))(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@unocss/eslint-plugin@66.3.3(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3))(@vue/compiler-sfc@3.5.17)(eslint-plugin-format@1.0.1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-hooks@6.0.0-rc1(eslint@9.31.0(jiti@2.4.2)))(eslint-plugin-react-refresh@0.4.20(eslint@9.31.0(jiti@2.4.2)))(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)(vitest@3.2.4)
       eslint: 9.31.0(jiti@2.4.2)
@@ -6437,7 +6437,7 @@ snapshots:
       pkg-types: 2.2.0
     optionalDependencies:
       '@tanstack/eslint-plugin-query': 5.81.2(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
-      '@tanstack/eslint-plugin-router': 1.125.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
+      '@tanstack/eslint-plugin-router': 1.129.7(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
     transitivePeerDependencies:
       - '@eslint-react/eslint-plugin'
       - '@eslint/json'
@@ -6500,7 +6500,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tanstack/eslint-plugin-router@1.125.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@tanstack/eslint-plugin-router@1.129.7(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@typescript-eslint/utils': 8.37.0(eslint@9.31.0(jiti@2.4.2))(typescript@5.8.3)
       eslint: 9.31.0(jiti@2.4.2)
