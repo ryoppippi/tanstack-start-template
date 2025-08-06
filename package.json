@@ -46,7 +46,7 @@
 		"eslint-plugin-react-compiler": "19.0.0-beta-ebf51a3-20250411",
 		"eslint-plugin-react-hooks": "6.0.0-rc1",
 		"eslint-plugin-react-refresh": "^0.4.20",
-		"lint-staged": "^16.1.2",
+		"lint-staged": "^16.1.4",
 		"msw": "^2.10.4",
 		"simple-git-hooks": "^2.13.1",
 		"unocss": "66.3.3",
