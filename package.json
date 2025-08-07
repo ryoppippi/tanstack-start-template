@@ -37,7 +37,7 @@
 		"@types/bun": "latest",
 		"@types/react": "^19.1.9",
 		"@types/react-dom": "^19.1.7",
-		"@unocss/eslint-plugin": "66.4.0",
+		"@unocss/eslint-plugin": "66.4.1",
 		"@unocss/preset-attributify": "66.4.0",
 		"@vitest/ui": "^3.2.4",
 		"babel-plugin-react-compiler": "19.1.0-rc.2",
