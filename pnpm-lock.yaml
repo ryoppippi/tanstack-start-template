@@ -70,8 +70,8 @@ importers:
         specifier: 66.4.2
         version: 66.4.2(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)
       '@unocss/preset-attributify':
-        specifier: 66.4.1
-        version: 66.4.1
+        specifier: 66.4.2
+        version: 66.4.2
       '@vitest/ui':
         specifier: ^3.2.4
         version: 3.2.4(vitest@3.2.4)
@@ -1714,9 +1714,6 @@ packages:
   '@unocss/core@66.3.3':
     resolution: {integrity: sha512-6WFLd92TJelVQARtCGaF+EgEoHKIVe43gkGXVoWILu0HUDRWdhv+cpcyX0RTJV22Y976AxeneU7/zmhAh+CXNg==}
 
-  '@unocss/core@66.4.1':
-    resolution: {integrity: sha512-2QMthvEmH0215zqIIL5WCodQ9lYShYDzziF4N1MMdcoRvCumGq9MMBFPxC54gNDrO3+/Olhp++YYmXkdZ89qrA==}
-
   '@unocss/core@66.4.2':
     resolution: {integrity: sha512-cYgMQrLhB9nRekv5c+yPDDa+5dzlMkA2UMQRil0s5D9Lb5n7NsCMcr6+nfxkcSYVLy92SbwDV45c6T7vIxFTOA==}
 
@@ -1739,8 +1736,8 @@ packages:
   '@unocss/preset-attributify@66.3.3':
     resolution: {integrity: sha512-22+0Cqqu09q+xHfZ3Wk8Coxe5m6PmpgWz4U5xrEC8056UfG3Q1KEqoCxy2wySJIq8SqxQ30Nlll7oMa31B8Krw==}
 
-  '@unocss/preset-attributify@66.4.1':
-    resolution: {integrity: sha512-HTJd/4bEie6EsCwqq9hK+GJwoFp0rx6k3GTz9jHXMwhGpUGYPrrccw8cazYmJq7lMHnPbh/spxHH24eTISwojg==}
+  '@unocss/preset-attributify@66.4.2':
+    resolution: {integrity: sha512-DwFJJkkawmHpjo3pGQE8FyoPsvhbxh+QMvvaAdYpo+iZ5HRkeDml9SOj7u6SGTcmbNyI+QR61s0KM8fxx6HcVQ==}
 
   '@unocss/preset-icons@66.3.3':
     resolution: {integrity: sha512-Bmhiev05BN/horlgnyZ8gzQWZKd7oVpUBWD66X7U/dgkLdO6B5GIIsdO5Fi7JLeMDmyXm6vlYk0YQhiTbx8l9w==}
@@ -7053,8 +7050,6 @@ snapshots:
 
   '@unocss/core@66.3.3': {}
 
-  '@unocss/core@66.4.1': {}
-
   '@unocss/core@66.4.2': {}
 
   '@unocss/eslint-plugin@66.4.2(eslint@9.33.0(jiti@2.5.1))(typescript@5.9.2)':
@@ -7098,9 +7093,9 @@ snapshots:
     dependencies:
       '@unocss/core': 66.3.3
 
-  '@unocss/preset-attributify@66.4.1':
+  '@unocss/preset-attributify@66.4.2':
     dependencies:
-      '@unocss/core': 66.4.1
+      '@unocss/core': 66.4.2
 
   '@unocss/preset-icons@66.3.3':
     dependencies:
@@ -7159,7 +7154,7 @@ snapshots:
 
   '@unocss/rule-utils@66.3.3':
     dependencies:
-      '@unocss/core': 66.3.3
+      '@unocss/core': 66.4.2
       magic-string: 0.30.17
 
   '@unocss/rule-utils@66.4.2':
