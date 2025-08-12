@@ -41,7 +41,7 @@
 		"@unocss/preset-attributify": "66.4.2",
 		"@vitest/ui": "^3.2.4",
 		"babel-plugin-react-compiler": "19.1.0-rc.2",
-		"eslint": "^9.32.0",
+		"eslint": "^9.33.0",
 		"eslint-plugin-format": "^1.0.1",
 		"eslint-plugin-react-compiler": "19.0.0-beta-ebf51a3-20250411",
 		"eslint-plugin-react-hooks": "6.0.0-rc1",
