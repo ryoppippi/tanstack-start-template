@@ -21,8 +21,8 @@ importers:
         specifier: 1.131.36
         version: 1.131.36(@tanstack/react-router@1.131.37(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@vitejs/plugin-react@5.0.2(rolldown-vite@7.1.9(@types/node@24.3.1)(esbuild@0.25.9)(jiti@2.5.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1)))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(rolldown-vite@7.1.9(@types/node@24.3.1)(esbuild@0.25.9)(jiti@2.5.1)(terser@5.44.0)(tsx@4.20.5)(yaml@2.8.1))(rolldown@1.0.0-beta.37)
       '@unocss/reset':
-        specifier: 66.5.0
-        version: 66.5.0
+        specifier: 66.5.1
+        version: 66.5.1
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1582,6 +1582,9 @@ packages:
 
   '@unocss/reset@66.5.0':
     resolution: {integrity: sha512-Sf27NbbNUg3e4BShQB7EsMCS1GtA6IORBm08SitSpUZZYOZAj+LAypYsOJ4rttAFs/Hp1h0AxtNShesXWK66oA==}
+
+  '@unocss/reset@66.5.1':
+    resolution: {integrity: sha512-NXDjDUn3cjATkxr7bbPdVnKkUHzEq6wSC1IRpnO8ISAXCw6JGPjuk3WJVYxHhnAlszhDxdqxVBjWRZ+zzVmrZw==}
 
   '@unocss/rule-utils@66.5.0':
     resolution: {integrity: sha512-+yqGZP8fR/G/gOkjXSXjmgTXFr4zGCQR+rA3Ana4xVoLIttcmPk4qO1IWcUVRQTDDqFmUjW/XwWmChta+rdQsA==}
@@ -6264,6 +6267,8 @@ snapshots:
       '@unocss/preset-wind3': 66.5.0
 
   '@unocss/reset@66.5.0': {}
+
+  '@unocss/reset@66.5.1': {}
 
   '@unocss/rule-utils@66.5.0':
     dependencies:
