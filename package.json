@@ -42,7 +42,7 @@
 		"@vitest/ui": "^3.2.4",
 		"babel-plugin-react-compiler": "19.1.0-rc.3",
 		"eslint": "^9.36.0",
-		"eslint-plugin-format": "^1.0.1",
+		"eslint-plugin-format": "^1.0.2",
 		"eslint-plugin-react-compiler": "19.0.0-beta-ebf51a3-20250411",
 		"eslint-plugin-react-hooks": "6.0.0-rc1",
 		"eslint-plugin-react-refresh": "^0.4.20",

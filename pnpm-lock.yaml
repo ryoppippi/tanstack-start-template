@@ -82,7 +82,7 @@ importers:
         specifier: ^9.36.0
         version: 9.36.0(jiti@2.6.0)
       eslint-plugin-format:
-        specifier: ^1.0.1
+        specifier: ^1.0.2
         version: 1.0.2(eslint@9.36.0(jiti@2.6.0))
       eslint-plugin-react-compiler:
         specifier: 19.0.0-beta-ebf51a3-20250411
