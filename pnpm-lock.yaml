@@ -91,7 +91,7 @@ importers:
         specifier: 6.0.0-rc1
         version: 6.0.0-rc1(eslint@9.36.0(jiti@2.6.0))
       eslint-plugin-react-refresh:
-        specifier: ^0.4.21
+        specifier: ^0.4.22
         version: 0.4.22(eslint@9.36.0(jiti@2.6.0))
       lint-staged:
         specifier: ^16.2.0
