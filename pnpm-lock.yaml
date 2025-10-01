@@ -55,7 +55,7 @@ importers:
         specifier: ^5.91.0
         version: 5.91.0(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)
       '@tanstack/eslint-plugin-router':
-        specifier: ^1.132.0
+        specifier: ^1.132.21
         version: 1.132.21(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)
       '@types/bun':
         specifier: latest
