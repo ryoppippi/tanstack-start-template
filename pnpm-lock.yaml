@@ -94,7 +94,7 @@ importers:
         specifier: ^0.4.22
         version: 0.4.22(eslint@9.36.0(jiti@2.6.0))
       lint-staged:
-        specifier: ^16.2.1
+        specifier: ^16.2.3
         version: 16.2.3
       msw:
         specifier: ^2.11.3
