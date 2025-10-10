@@ -35,7 +35,7 @@
 		"@tanstack/eslint-plugin-query": "^5.91.0",
 		"@tanstack/eslint-plugin-router": "^1.132.31",
 		"@types/bun": "latest",
-		"@types/react": "^19.2.0",
+		"@types/react": "^19.2.2",
 		"@types/react-dom": "^19.2.0",
 		"@unocss/eslint-plugin": "66.5.2",
 		"@unocss/preset-attributify": "66.5.2",
