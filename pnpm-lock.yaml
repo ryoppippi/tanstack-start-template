@@ -97,7 +97,7 @@ importers:
         specifier: ^16.2.6
         version: 16.2.6
       msw:
-        specifier: ^2.11.5
+        specifier: ^2.11.6
         version: 2.11.6(@types/node@24.8.1)(typescript@5.9.3)
       simple-git-hooks:
         specifier: ^2.13.1
