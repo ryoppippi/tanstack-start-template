@@ -53,7 +53,7 @@
 		"unocss-transformer-alias": "^0.0.8",
 		"vite": "npm:rolldown-vite@latest",
 		"vite-tsconfig-paths": "^5.1.4",
-		"vitest": "^3.2.4"
+		"vitest": "^4.0.3"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "lint-staged",
