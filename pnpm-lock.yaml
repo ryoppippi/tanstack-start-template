@@ -37,7 +37,7 @@ importers:
         version: 5.9.3
     devDependencies:
       '@antfu/ni':
-        specifier: ^27.0.0
+        specifier: ^27.0.1
         version: 27.0.1
       '@eslint-react/eslint-plugin':
         specifier: ^1.53.1
