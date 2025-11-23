@@ -94,8 +94,8 @@ importers:
         specifier: ^0.4.24
         version: 0.4.24(eslint@9.39.1(jiti@2.6.1))
       lint-staged:
-        specifier: ^16.2.6
-        version: 16.2.6
+        specifier: ^16.2.7
+        version: 16.2.7
       msw:
         specifier: ^2.12.2
         version: 2.12.2(@types/node@24.10.0)(typescript@5.9.3)
@@ -3126,8 +3126,8 @@ packages:
     resolution: {integrity: sha512-utfs7Pr5uJyyvDETitgsaqSyjCb2qNRAtuqUeWIAKztsOYdcACf2KtARYXg2pSvhkt+9NfoaNY7fxjl6nuMjIQ==}
     engines: {node: '>= 12.0.0'}
 
-  lint-staged@16.2.6:
-    resolution: {integrity: sha512-s1gphtDbV4bmW1eylXpVMk2u7is7YsrLl8hzrtvC70h4ByhcMLZFY01Fx05ZUDNuv1H8HO4E+e2zgejV1jVwNw==}
+  lint-staged@16.2.7:
+    resolution: {integrity: sha512-lDIj4RnYmK7/kXMya+qJsmkRFkGolciXjrsZ6PC25GdTfWOAWetR0ZbsNXRAj1EHHImRSalc+whZFg56F5DVow==}
     engines: {node: '>=20.17'}
     hasBin: true
 
@@ -8015,7 +8015,7 @@ snapshots:
       lightningcss-win32-arm64-msvc: 1.30.2
       lightningcss-win32-x64-msvc: 1.30.2
 
-  lint-staged@16.2.6:
+  lint-staged@16.2.7:
     dependencies:
       commander: 14.0.2
       listr2: 9.0.5
