@@ -33,7 +33,7 @@
 		"@ryoppippi/unocss-preset": "^2.0.1",
 		"@std/collections": "jsr:^1.1.1",
 		"@tanstack/eslint-plugin-query": "^5.91.2",
-		"@tanstack/eslint-plugin-router": "^1.133.19",
+		"@tanstack/eslint-plugin-router": "^1.139.0",
 		"@types/bun": "latest",
 		"@types/react": "^19.2.6",
 		"@types/react-dom": "^19.2.3",
