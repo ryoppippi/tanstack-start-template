@@ -70,8 +70,8 @@ importers:
         specifier: 66.5.10
         version: 66.5.10(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       '@unocss/preset-attributify':
-        specifier: 66.5.9
-        version: 66.5.9
+        specifier: 66.5.10
+        version: 66.5.10
       '@vitest/ui':
         specifier: ^4.0.14
         version: 4.0.14(vitest@4.0.14)
@@ -1370,6 +1370,9 @@ packages:
     engines: {node: '>=14'}
     peerDependencies:
       postcss: ^8.4.21
+
+  '@unocss/preset-attributify@66.5.10':
+    resolution: {integrity: sha512-dEFs8kXC9xoqolQBFvtgXvdzWQqHoWqSj/eosX2oDmy8REk7UErpBvMmqR4pCP7mqdtG8yZ2l34Gtb42hDM3JA==}
 
   '@unocss/preset-attributify@66.5.9':
     resolution: {integrity: sha512-PHmN+d32443WIV6rCksTHuO+19susHQrpiOddS6QiYN9LLTvJ8CAmdJYNmQUIOhlZsDhV7EjGZM9idUNK8C7ZA==}
@@ -4989,6 +4992,10 @@ snapshots:
       postcss: 8.5.6
       tinyglobby: 0.2.15
 
+  '@unocss/preset-attributify@66.5.10':
+    dependencies:
+      '@unocss/core': 66.5.10
+
   '@unocss/preset-attributify@66.5.9':
     dependencies:
       '@unocss/core': 66.5.9
@@ -5052,7 +5059,7 @@ snapshots:
 
   '@unocss/rule-utils@66.5.9':
     dependencies:
-      '@unocss/core': 66.5.9
+      '@unocss/core': 66.5.10
       magic-string: 0.30.21
 
   '@unocss/transformer-attributify-jsx@66.5.9':
