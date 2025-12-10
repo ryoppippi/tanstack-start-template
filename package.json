@@ -47,7 +47,7 @@
 		"eslint-plugin-react-hooks": "7.0.1",
 		"eslint-plugin-react-refresh": "^0.4.24",
 		"lint-staged": "^16.2.7",
-		"msw": "^2.12.3",
+		"msw": "^2.12.4",
 		"simple-git-hooks": "^2.13.1",
 		"unocss": "66.5.9",
 		"unocss-transformer-alias": "^0.0.8",
