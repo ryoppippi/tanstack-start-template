@@ -112,7 +112,7 @@ importers:
         specifier: npm:rolldown-vite@latest
         version: rolldown-vite@7.3.0(@types/node@24.10.0)(jiti@2.6.1)(terser@5.44.1)(tsx@4.20.6)(yaml@2.8.1)
       vite-tsconfig-paths:
-        specifier: ^6.0.1
+        specifier: ^6.0.2
         version: 6.0.2(rolldown-vite@7.3.0(@types/node@24.10.0)(jiti@2.6.1)(terser@5.44.1)(tsx@4.20.6)(yaml@2.8.1))(typescript@5.9.3)
       vitest:
         specifier: ^4.0.16
