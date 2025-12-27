@@ -15,7 +15,7 @@ importers:
         specifier: 1.142.11
         version: 1.142.11(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@tanstack/react-router-devtools':
-        specifier: ^1.143.3
+        specifier: ^1.143.4
         version: 1.143.6(@tanstack/react-router@1.142.11(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(@tanstack/router-core@1.142.11)(csstype@3.2.3)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(solid-js@1.9.10)
       '@tanstack/react-start':
         specifier: 1.142.8
