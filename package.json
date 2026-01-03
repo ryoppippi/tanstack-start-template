@@ -21,7 +21,7 @@
 		"@tanstack/react-router": "1.144.0",
 		"@tanstack/react-router-devtools": "^1.144.0",
 		"@tanstack/react-start": "1.145.3",
-		"@unocss/reset": "66.5.11",
+		"@unocss/reset": "66.5.12",
 		"clsx": "^2.1.1",
 		"react": "^19.2.3",
 		"react-dom": "^19.2.3"
