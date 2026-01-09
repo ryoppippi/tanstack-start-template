@@ -37,8 +37,8 @@ importers:
         version: 5.9.3
     devDependencies:
       '@antfu/ni':
-        specifier: ^28.0.0
-        version: 28.0.0
+        specifier: ^28.1.0
+        version: 28.1.0
       '@eslint-react/eslint-plugin':
         specifier: ^2.5.1
         version: 2.5.1(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -175,8 +175,8 @@ packages:
   '@antfu/install-pkg@1.1.0':
     resolution: {integrity: sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ==}
 
-  '@antfu/ni@28.0.0':
-    resolution: {integrity: sha512-GhP4MRAitPXH4pCG+XMHUnAUb9H+Jg/tC4XjD/siB3qwDjgVilKj4uoJP92K2zj6Av6lzsEvZosxRXpLt4IYGA==}
+  '@antfu/ni@28.1.0':
+    resolution: {integrity: sha512-CwNepqzcItyoRDlZyQXFzgSPbPoek7Udb5URvhIS3fWVZwfXiwYcgrfsFBGWQLylVSPC6S47gTjBLbt/OzC2Vw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2749,9 +2749,6 @@ packages:
     resolution: {integrity: sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==}
     engines: {node: '>=10'}
 
-  package-manager-detector@1.5.0:
-    resolution: {integrity: sha512-uBj69dVlYe/+wxj8JOpr97XfsxH/eumMt6HqjNTmJDf/6NO9s+0uxeOneIz3AsPt2m6y9PqzDzd3ATcU17MNfw==}
-
   package-manager-detector@1.6.0:
     resolution: {integrity: sha512-61A5ThoTiDG/C8s8UMZwSorAGwMJ0ERVGj2OjoW5pAalsNOg15+iQiPzrLJ4jhZ1HJzmC2PIHT2oEiH3R5fzNA==}
 
@@ -3563,10 +3560,10 @@ snapshots:
 
   '@antfu/install-pkg@1.1.0':
     dependencies:
-      package-manager-detector: 1.5.0
+      package-manager-detector: 1.6.0
       tinyexec: 1.0.2
 
-  '@antfu/ni@28.0.0':
+  '@antfu/ni@28.1.0':
     dependencies:
       ansis: 4.2.0
       fzf: 0.5.2
@@ -6645,8 +6642,6 @@ snapshots:
   p-locate@5.0.0:
     dependencies:
       p-limit: 3.1.0
-
-  package-manager-detector@1.5.0: {}
 
   package-manager-detector@1.6.0: {}
 
