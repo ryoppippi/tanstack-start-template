@@ -40,7 +40,7 @@ importers:
         specifier: ^28.1.0
         version: 28.1.0
       '@eslint-react/eslint-plugin':
-        specifier: ^2.5.3
+        specifier: ^2.5.4
         version: 2.5.5(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       '@ryoppippi/eslint-config':
         specifier: ^0.4.0
@@ -4726,8 +4726,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.51.0(typescript@5.9.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.51.0(typescript@5.9.3)
-      '@typescript-eslint/types': 8.51.0
+      '@typescript-eslint/tsconfig-utils': 8.52.0(typescript@5.9.3)
+      '@typescript-eslint/types': 8.52.0
       debug: 4.4.3
       typescript: 5.9.3
     transitivePeerDependencies:
