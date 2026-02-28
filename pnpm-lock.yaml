@@ -70,8 +70,8 @@ importers:
         specifier: 66.6.1
         version: 66.6.1(eslint@10.0.2(jiti@2.6.1))(typescript@5.9.3)
       '@unocss/preset-attributify':
-        specifier: 66.6.0
-        version: 66.6.0
+        specifier: 66.6.1
+        version: 66.6.1
       '@vitest/ui':
         specifier: ^4.0.18
         version: 4.0.18(vitest@4.0.18)
@@ -1529,6 +1529,9 @@ packages:
 
   '@unocss/preset-attributify@66.6.0':
     resolution: {integrity: sha512-IfGZT9LjQkfpJaVjDtFMxOlrEoj7m1DCztRdby0FaptXChE7vdgRkYFl8HDeXMkEIlzV1YTHuIarwJ+tV+1SRQ==}
+
+  '@unocss/preset-attributify@66.6.1':
+    resolution: {integrity: sha512-v2NShH7Lgqp1H+Ffsz4Q27UhBBYg8Wq6ZO3iCm4ZxvZyaqHW/YEWjfoaAK7YXrcb4uOs8a+G+S7X7Ho7CUb6BQ==}
 
   '@unocss/preset-icons@66.6.0':
     resolution: {integrity: sha512-ObgmN9SsqU7TiClNvy+mQDyqzwOhlBXT0whXFp3iiBfSbnxUIDyf4Pr/2hwxnAWrCWCQj7xw2H0Y0sDtXq8XkA==}
@@ -5168,6 +5171,10 @@ snapshots:
     dependencies:
       '@unocss/core': 66.6.0
 
+  '@unocss/preset-attributify@66.6.1':
+    dependencies:
+      '@unocss/core': 66.6.1
+
   '@unocss/preset-icons@66.6.0':
     dependencies:
       '@iconify/utils': 3.1.0
@@ -5220,7 +5227,7 @@ snapshots:
 
   '@unocss/rule-utils@66.6.0':
     dependencies:
-      '@unocss/core': 66.6.0
+      '@unocss/core': 66.6.1
       magic-string: 0.30.21
 
   '@unocss/rule-utils@66.6.1':
