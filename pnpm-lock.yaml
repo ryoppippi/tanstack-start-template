@@ -21,8 +21,8 @@ importers:
         specifier: 1.163.2
         version: 1.163.2(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(rolldown-vite@7.3.1(@types/node@24.10.0)(jiti@2.6.1)(terser@5.44.1)(tsx@4.20.6)(yaml@2.8.1))
       '@unocss/reset':
-        specifier: 66.6.0
-        version: 66.6.0
+        specifier: 66.6.1
+        version: 66.6.1
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1562,6 +1562,9 @@ packages:
 
   '@unocss/reset@66.6.0':
     resolution: {integrity: sha512-OQK5F7Dzx0wWDSPTYEz7NRP9pekufSAkjxfKOyKokiXOUzVTg8Yx8sOvCsA3Oi0Rx5WlsO2LN+MOBekpkrttXg==}
+
+  '@unocss/reset@66.6.1':
+    resolution: {integrity: sha512-kpPPeg6glVtIZeqZ7XC6vrVr+8Hm8zCQEkHZPlmnWe/bEGKRwccr1M59IjSa9jwAhJGqvO9iV/XtjeaVutUbHw==}
 
   '@unocss/rule-utils@66.6.0':
     resolution: {integrity: sha512-v16l6p5VrefDx8P/gzWnp0p6/hCA0vZ4UMUN6SxHGVE6V+IBpX6I6Du3Egk9TdkhZ7o+Pe1NHxksHcjT0V/tww==}
@@ -5224,6 +5227,8 @@ snapshots:
       '@unocss/preset-wind3': 66.6.0
 
   '@unocss/reset@66.6.0': {}
+
+  '@unocss/reset@66.6.1': {}
 
   '@unocss/rule-utils@66.6.0':
     dependencies:
