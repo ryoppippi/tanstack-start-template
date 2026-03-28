@@ -14,7 +14,7 @@
 		"prepare": "simple-git-hooks"
 	},
 	"peerDependencies": {
-		"typescript": "^5.9.3"
+		"typescript": "^6.0.2"
 	},
 	"dependencies": {
 		"@tanstack/react-query": "^5.95.2",
