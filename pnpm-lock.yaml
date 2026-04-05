@@ -106,8 +106,8 @@ importers:
         specifier: 66.6.7
         version: 66.6.7(rolldown-vite@7.3.1(@types/node@24.10.0)(jiti@2.6.1)(terser@5.44.1)(tsx@4.20.6)(yaml@2.8.2))
       unocss-transformer-alias:
-        specifier: ^0.0.8
-        version: 0.0.8
+        specifier: ^0.1.0
+        version: 0.1.0
       vite:
         specifier: npm:rolldown-vite@latest
         version: rolldown-vite@7.3.1(@types/node@24.10.0)(jiti@2.6.1)(terser@5.44.1)(tsx@4.20.6)(yaml@2.8.2)
@@ -1490,9 +1490,6 @@ packages:
   '@unocss/config@66.6.7':
     resolution: {integrity: sha512-1uleyRLyJc6PNNc2L3hEaKL89zXwvQAtP36oFySgL47RAxZHPZ4vfqFpbwR0eEN4iSqTS24ZFr7CTRWCaEGjzQ==}
     engines: {node: '>=14'}
-
-  '@unocss/core@0.61.9':
-    resolution: {integrity: sha512-2W1YZQIWXcueGdbXU/ZCqn/8yQhWk8e8kAHFkVlbc9rictkd2UmPB9nIZ8Ii1tMwt6F0TT6vfHbLJEGCV08o2g==}
 
   '@unocss/core@66.6.7':
     resolution: {integrity: sha512-Q8456iWFtdwrUNYKVOQY8ygRggjZOVtLc6Jc8KIkxig7OiNlUWOgXJTfCh4I8g6jBYzC5eHaHFDLgJOmOrxBsg==}
@@ -3373,8 +3370,8 @@ packages:
   unist-util-visit@5.0.0:
     resolution: {integrity: sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==}
 
-  unocss-transformer-alias@0.0.8:
-    resolution: {integrity: sha512-rJDAUQAxi+qhuo3NJd5G/nOAFL/TyHaS4ALKtF5/PEf2WpN3PqpHFCaQfQdlZxkkuikp+mO3o/TBQJ6azIH9xg==}
+  unocss-transformer-alias@0.1.0:
+    resolution: {integrity: sha512-uV/8I0BTfuWLdyh9KVn/IXct3qN9uwXrn332rj4LYYdCIXh+473nj0+CetGgXf+VcnWfSI/m/UUHzC04NRExvQ==}
 
   unocss@66.6.7:
     resolution: {integrity: sha512-TdZ/JnKhrqkknrMvLl0KOwrGzFThEspFIyYiylFYJki2JkMN/5EJIr+vIZEGRX69hFTjTLi6utIpbipueqzNbw==}
@@ -4993,8 +4990,6 @@ snapshots:
       colorette: 2.0.20
       consola: 3.4.2
       unconfig: 7.5.0
-
-  '@unocss/core@0.61.9': {}
 
   '@unocss/core@66.6.7': {}
 
@@ -7199,9 +7194,9 @@ snapshots:
       unist-util-is: 6.0.1
       unist-util-visit-parents: 6.0.2
 
-  unocss-transformer-alias@0.0.8:
+  unocss-transformer-alias@0.1.0:
     dependencies:
-      '@unocss/core': 0.61.9
+      '@unocss/core': 66.6.7
 
   unocss@66.6.7(rolldown-vite@7.3.1(@types/node@24.10.0)(jiti@2.6.1)(terser@5.44.1)(tsx@4.20.6)(yaml@2.8.2)):
     dependencies:
