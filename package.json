@@ -24,7 +24,7 @@
 		"@unocss/reset": "66.6.8",
 		"clsx": "^2.1.1",
 		"react": "^19.2.5",
-		"react-dom": "^19.2.4"
+		"react-dom": "^19.2.5"
 	},
 	"devDependencies": {
 		"@antfu/ni": "^30.0.0",
