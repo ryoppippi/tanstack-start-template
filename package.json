@@ -20,7 +20,7 @@
 		"@tanstack/react-query": "^5.99.0",
 		"@tanstack/react-router": "1.168.21",
 		"@tanstack/react-router-devtools": "^1.166.13",
-		"@tanstack/react-start": "1.167.23",
+		"@tanstack/react-start": "1.167.39",
 		"@unocss/reset": "66.6.8",
 		"clsx": "^2.1.1",
 		"react": "^19.2.5",
