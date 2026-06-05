@@ -40,7 +40,7 @@ importers:
         specifier: ^30.1.0
         version: 30.1.0
       '@eslint-react/eslint-plugin':
-        specifier: ^5.8.9
+        specifier: ^5.8.10
         version: 5.8.10(eslint@10.4.1(jiti@2.7.0))(typescript@6.0.3)
       '@ryoppippi/eslint-config':
         specifier: ^0.4.0
