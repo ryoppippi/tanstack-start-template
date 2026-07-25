@@ -27,7 +27,7 @@
 		"react-dom": "^19.2.8"
 	},
 	"devDependencies": {
-		"@antfu/ni": "^30.2.0",
+		"@antfu/ni": "^30.3.0",
 		"@eslint-react/eslint-plugin": "^5.17.3",
 		"@ryoppippi/eslint-config": "^0.4.0",
 		"@ryoppippi/unocss-preset": "^2.0.1",
