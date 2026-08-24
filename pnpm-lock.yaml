@@ -44,7 +44,7 @@ importers:
         version: 5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       '@ryoppippi/eslint-config':
         specifier: ^0.4.0
-        version: 0.4.0(@eslint-react/eslint-plugin@5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@tanstack/eslint-plugin-query@5.101.4(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@tanstack/eslint-plugin-router@1.162.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@unocss/eslint-plugin@66.8.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-hooks@7.1.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)(vitest@4.1.11)
+        version: 0.4.0(@eslint-react/eslint-plugin@5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@tanstack/eslint-plugin-query@5.101.4(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@tanstack/eslint-plugin-router@1.162.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@unocss/eslint-plugin@66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-hooks@7.1.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)(vitest@4.1.11)
       '@ryoppippi/unocss-preset':
         specifier: ^2.0.1
         version: 2.0.1(unocss@66.7.5(rolldown-vite@7.3.1(@types/node@24.10.0)(jiti@2.7.0)(yaml@2.9.0)))
@@ -67,8 +67,8 @@ importers:
         specifier: ^19.2.4
         version: 19.2.4(@types/react@19.2.18)
       '@unocss/eslint-plugin':
-        specifier: 66.8.0
-        version: 66.8.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
+        specifier: 66.8.1
+        version: 66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       '@unocss/preset-attributify':
         specifier: 66.8.0
         version: 66.8.0
@@ -1481,8 +1481,8 @@ packages:
   '@unocss/config@66.7.5':
     resolution: {integrity: sha512-dkPl9glhEahJ+Xoja5ZseKKnH+vZaeaKQzg8b0otcKcPPNrHQgu1nu3QgfeOjnXOGrjZIotHwUeVtt4ZA2Skgg==}
 
-  '@unocss/config@66.8.0':
-    resolution: {integrity: sha512-iW6A4h4PaXADWMskdWvjqodQWPegyRhzzP7JAVt+e8uIgcvreQiq0NseQ1WATHW6/x4DvkpYBud/y4jlXJE2Iw==}
+  '@unocss/config@66.8.1':
+    resolution: {integrity: sha512-2MhijaV6a4OWSH5zJeo2QLIUr7gtjxdA3x1D4CIDCWQnrEqmPstOBRQOhWDl3HbLW6/0jHOFSMExbeeFvCvnsA==}
 
   '@unocss/core@66.6.7':
     resolution: {integrity: sha512-Q8456iWFtdwrUNYKVOQY8ygRggjZOVtLc6Jc8KIkxig7OiNlUWOgXJTfCh4I8g6jBYzC5eHaHFDLgJOmOrxBsg==}
@@ -1493,8 +1493,11 @@ packages:
   '@unocss/core@66.8.0':
     resolution: {integrity: sha512-XQjALtWyK2aDKlBbIAufCwSu8QD6iv6qEGygeYcP1DLsQzRwBy8zQq3A+DqVUyFNJGMhXHSNeWeiLKjFnTzBOg==}
 
-  '@unocss/eslint-plugin@66.8.0':
-    resolution: {integrity: sha512-laJeWuc7ePb6f6TIxP+alNlxc0AentsrtDM2+53ynKnCeyml3RVptATTUB9mHs+hLynXhz6Zao4pzCfsS8jwzw==}
+  '@unocss/core@66.8.1':
+    resolution: {integrity: sha512-ze/3qTloXZtFn6TXiNjL6ai1vgMvTCXIm8nqTzoU/Dt5d5MRxA86ERfUmgTX70rEBam5l6vnsaEVZO6WnHhdRA==}
+
+  '@unocss/eslint-plugin@66.8.1':
+    resolution: {integrity: sha512-MC2zoxGq9LRa1Ix3DujBNAkhLXkv3y0R1CuAFvLujvxjuXls4wv29O2NdwNNazuAL8smXDs5LceRZvIijdP7+g==}
 
   '@unocss/extractor-arbitrary-variants@66.7.5':
     resolution: {integrity: sha512-5zOkbnLIJc8E749qNjLXfPHl3FdHloop12h706/ojr6idK4ix0KLm43R//uLnphixCehdHJRuHnavnM4C/kQbA==}
@@ -1541,8 +1544,8 @@ packages:
   '@unocss/rule-utils@66.7.5':
     resolution: {integrity: sha512-/AKHBRF6ZOexE3EDDv8ZEYh40P5e2Eha41IYUbE1wjigW7++ssmvimSTdufJzZvU5DGP++E3B3WEsFPprZMjAg==}
 
-  '@unocss/rule-utils@66.8.0':
-    resolution: {integrity: sha512-nRO1oP6ziMKJ3ut7NsxDNitNF+9sJ5mXj/fqO2sPRuDeS8Jkp3mqqCgC1E4lTrb3icXA9VPUoquYhHohAGVdDA==}
+  '@unocss/rule-utils@66.8.1':
+    resolution: {integrity: sha512-EQ9bhifqIodIsl7+eOmkCVWXkZ7dnwkmTURFyAosVpUc8j4WYsfnQC+3SjKnJfT44s1rIqHJtoBBaG9X97opdA==}
 
   '@unocss/transformer-attributify-jsx@66.7.5':
     resolution: {integrity: sha512-r8qDwNSt0eGSwWws3xsuIHb3PZYR2embFdYoE67hD/xlYgLjX1uPy/HUlGCSSh4uLc4vVYjurr0Oq5xF/B8YiA==}
@@ -3469,7 +3472,7 @@ packages:
 
 snapshots:
 
-  '@antfu/eslint-config@4.19.0(@eslint-react/eslint-plugin@5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@unocss/eslint-plugin@66.8.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-hooks@7.1.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)(vitest@4.1.11)':
+  '@antfu/eslint-config@4.19.0(@eslint-react/eslint-plugin@5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@unocss/eslint-plugin@66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-hooks@7.1.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)(vitest@4.1.11)':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 0.11.0
@@ -3510,7 +3513,7 @@ snapshots:
       yaml-eslint-parser: 1.3.0
     optionalDependencies:
       '@eslint-react/eslint-plugin': 5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
-      '@unocss/eslint-plugin': 66.8.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
+      '@unocss/eslint-plugin': 66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       eslint-plugin-format: 2.0.1(eslint@10.8.1(jiti@2.7.0))
       eslint-plugin-react-hooks: 7.1.1(eslint@10.8.1(jiti@2.7.0))
       eslint-plugin-react-refresh: 0.5.4(eslint@10.8.1(jiti@2.7.0))
@@ -4206,9 +4209,9 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-beta.53': {}
 
-  '@ryoppippi/eslint-config@0.4.0(@eslint-react/eslint-plugin@5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@tanstack/eslint-plugin-query@5.101.4(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@tanstack/eslint-plugin-router@1.162.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@unocss/eslint-plugin@66.8.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-hooks@7.1.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)(vitest@4.1.11)':
+  '@ryoppippi/eslint-config@0.4.0(@eslint-react/eslint-plugin@5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@tanstack/eslint-plugin-query@5.101.4(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@tanstack/eslint-plugin-router@1.162.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@unocss/eslint-plugin@66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-hooks@7.1.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)(vitest@4.1.11)':
     dependencies:
-      '@antfu/eslint-config': 4.19.0(@eslint-react/eslint-plugin@5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@unocss/eslint-plugin@66.8.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-hooks@7.1.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)(vitest@4.1.11)
+      '@antfu/eslint-config': 4.19.0(@eslint-react/eslint-plugin@5.18.6(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@unocss/eslint-plugin@66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2))(@vue/compiler-sfc@3.5.24)(eslint-plugin-format@2.0.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-hooks@7.1.1(eslint@10.8.1(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.4(eslint@10.8.1(jiti@2.7.0)))(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)(vitest@4.1.11)
       eslint: 10.8.1(jiti@2.7.0)
       eslint-flat-config-utils: 2.1.4
       eslint-plugin-ryoppippi: 0.2.6(eslint@10.8.1(jiti@2.7.0))
@@ -4880,9 +4883,9 @@ snapshots:
       consola: 3.4.2
       unconfig: 7.5.0
 
-  '@unocss/config@66.8.0':
+  '@unocss/config@66.8.1':
     dependencies:
-      '@unocss/core': 66.8.0
+      '@unocss/core': 66.8.1
       colorette: 2.0.20
       consola: 3.4.2
       unconfig: 7.5.0
@@ -4893,12 +4896,14 @@ snapshots:
 
   '@unocss/core@66.8.0': {}
 
-  '@unocss/eslint-plugin@66.8.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)':
+  '@unocss/core@66.8.1': {}
+
+  '@unocss/eslint-plugin@66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)':
     dependencies:
       '@typescript-eslint/utils': 8.67.0(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
-      '@unocss/config': 66.8.0
-      '@unocss/core': 66.8.0
-      '@unocss/rule-utils': 66.8.0
+      '@unocss/config': 66.8.1
+      '@unocss/core': 66.8.1
+      '@unocss/rule-utils': 66.8.1
       magic-string: 1.2.2
       synckit: 0.11.13
     transitivePeerDependencies:
@@ -4981,9 +4986,9 @@ snapshots:
       '@unocss/core': 66.7.5
       magic-string: 0.30.21
 
-  '@unocss/rule-utils@66.8.0':
+  '@unocss/rule-utils@66.8.1':
     dependencies:
-      '@unocss/core': 66.8.0
+      '@unocss/core': 66.8.1
       magic-string: 1.2.2
 
   '@unocss/transformer-attributify-jsx@66.7.5':
