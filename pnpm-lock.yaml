@@ -70,8 +70,8 @@ importers:
         specifier: 66.8.1
         version: 66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)
       '@unocss/preset-attributify':
-        specifier: 66.8.0
-        version: 66.8.0
+        specifier: 66.8.1
+        version: 66.8.1
       '@vitest/ui':
         specifier: ^4.1.11
         version: 4.1.11(vitest@4.1.11)
@@ -1490,9 +1490,6 @@ packages:
   '@unocss/core@66.7.5':
     resolution: {integrity: sha512-UdJb8MiMywcau8QrWEVgUAz0kvoFHyR+sACwYCgmBh/BpKJGyR/zw/Ys3wvysbm0f+i/20VGBex/QQxYVlzdyQ==}
 
-  '@unocss/core@66.8.0':
-    resolution: {integrity: sha512-XQjALtWyK2aDKlBbIAufCwSu8QD6iv6qEGygeYcP1DLsQzRwBy8zQq3A+DqVUyFNJGMhXHSNeWeiLKjFnTzBOg==}
-
   '@unocss/core@66.8.1':
     resolution: {integrity: sha512-ze/3qTloXZtFn6TXiNjL6ai1vgMvTCXIm8nqTzoU/Dt5d5MRxA86ERfUmgTX70rEBam5l6vnsaEVZO6WnHhdRA==}
 
@@ -1508,8 +1505,8 @@ packages:
   '@unocss/preset-attributify@66.7.5':
     resolution: {integrity: sha512-1Oi1Cp81pqYJwG3h4+OlP5A0FKyaa07MFBXaXc4Yr3faiTbsI8SKj2TqnZCb+NQvBsEqslEd+jKXGZ3lKzCVOQ==}
 
-  '@unocss/preset-attributify@66.8.0':
-    resolution: {integrity: sha512-Y9vgV0xnv3Xx4shBjIBcSmWzKYmOnYaIoWEcGmhILuHX3zcXKeMA5YUgZzF8rheUIDdH1wAMBwNaeGkyO6fkog==}
+  '@unocss/preset-attributify@66.8.1':
+    resolution: {integrity: sha512-UIMQ4L9TpwaJNvkajziuP9Y46LLOS3qWBruK5GdafikJJPqq1DswVKCWkVkHSdC+3dbXl2NUXUS35byJiZOY6w==}
 
   '@unocss/preset-icons@66.7.5':
     resolution: {integrity: sha512-ZsxadWnGGtHdANTikuMnjkQaT1qwUFJHZBF4fzVsPMnUiiKGs8rzXukwM9w3Gi9ontM7nbG2FYi9clWETSlpFg==}
@@ -4894,8 +4891,6 @@ snapshots:
 
   '@unocss/core@66.7.5': {}
 
-  '@unocss/core@66.8.0': {}
-
   '@unocss/core@66.8.1': {}
 
   '@unocss/eslint-plugin@66.8.1(eslint@10.8.1(jiti@2.7.0))(typescript@7.0.2)':
@@ -4927,9 +4922,9 @@ snapshots:
     dependencies:
       '@unocss/core': 66.7.5
 
-  '@unocss/preset-attributify@66.8.0':
+  '@unocss/preset-attributify@66.8.1':
     dependencies:
-      '@unocss/core': 66.8.0
+      '@unocss/core': 66.8.1
 
   '@unocss/preset-icons@66.7.5':
     dependencies:
