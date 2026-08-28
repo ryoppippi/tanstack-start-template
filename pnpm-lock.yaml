@@ -79,7 +79,7 @@ importers:
         specifier: 19.1.0-rc.3
         version: 19.1.0-rc.3
       eslint:
-        specifier: ^10.9.0
+        specifier: ^10.9.1
         version: 10.9.1(jiti@2.7.0)
       eslint-plugin-format:
         specifier: ^2.0.1
