@@ -70,8 +70,8 @@ importers:
         specifier: 66.10.0
         version: 66.10.0(eslint@10.9.1(jiti@2.7.0))(typescript@7.0.2)
       '@unocss/preset-attributify':
-        specifier: 66.9.2
-        version: 66.9.2
+        specifier: 66.10.0
+        version: 66.10.0
       '@vitest/ui':
         specifier: ^5.0.0
         version: 5.0.0(vitest@5.0.0)
@@ -1498,6 +1498,9 @@ packages:
 
   '@unocss/inspector@66.9.2':
     resolution: {integrity: sha512-nYu7tk1b+beUmfvKGGcRLil0OLc2Lv2JtZjpIsz0OirqSiCNQBOKWk1amUWxkyNPy3CK5d+W3D15Nh4J59nvyA==}
+
+  '@unocss/preset-attributify@66.10.0':
+    resolution: {integrity: sha512-cb6wBAJByWZPdg8pOL3rRLLYZJKWIvYt6Rw3aMdYxf34VZNrQO8+22AAYtK86LsHywOn7ULMwfLEV6iVbWKpcw==}
 
   '@unocss/preset-attributify@66.9.2':
     resolution: {integrity: sha512-p6epsUIyFMjMCbwB/e1OqPhN4gnjxUwiNFbePgmuYkBTSPQU5kqAwvkB05wfPCYXcrTiXT+wPMz6XgzuHuHA/w==}
@@ -4908,6 +4911,10 @@ snapshots:
       colorette: 2.0.20
       gzip-size: 6.0.0
       sirv: 3.0.2
+
+  '@unocss/preset-attributify@66.10.0':
+    dependencies:
+      '@unocss/core': 66.10.0
 
   '@unocss/preset-attributify@66.9.2':
     dependencies:
