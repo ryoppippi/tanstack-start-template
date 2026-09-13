@@ -24,7 +24,7 @@
 		"@unocss/reset": "66.10.1",
 		"clsx": "^2.1.1",
 		"react": "^19.3.0",
-		"react-dom": "^19.2.8"
+		"react-dom": "^19.3.0"
 	},
 	"devDependencies": {
 		"@antfu/ni": "^30.5.0",
@@ -36,7 +36,7 @@
 		"@tanstack/eslint-plugin-router": "^1.162.0",
 		"@types/bun": "latest",
 		"@types/react": "^19.3.0",
-		"@types/react-dom": "^19.2.7",
+		"@types/react-dom": "^19.3.0",
 		"@unocss/eslint-plugin": "66.10.1",
 		"@unocss/preset-attributify": "66.10.1",
 		"@vitest/ui": "^5.0.0",
