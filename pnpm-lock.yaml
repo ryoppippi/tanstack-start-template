@@ -21,8 +21,8 @@ importers:
         specifier: 1.168.54
         version: 1.168.54(crossws@0.4.12(srvx@1.0.3))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rolldown-vite@7.3.1(@types/node@24.10.0)(jiti@2.7.0)(yaml@2.9.0))
       '@unocss/reset':
-        specifier: 66.10.2
-        version: 66.10.2
+        specifier: 66.10.5
+        version: 66.10.5
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1713,8 +1713,8 @@ packages:
   '@unocss/preset-wind@66.10.2':
     resolution: {integrity: sha512-pzemFoSSlRW7jZ66C7MDdHIvXc/hdPA0v42QrlqXyGYxGNj30SGslAIt+lhFW5vPLfoPMyv65h16C9uaUAow6w==}
 
-  '@unocss/reset@66.10.2':
-    resolution: {integrity: sha512-rzJi7nWh0GbenpyyPOEkErSzALq5tXjC82/H+i2XTWdxzAH8eYDHWgLBPb/GI+mRsEyKdH+QZd2ttZiRHCOVzA==}
+  '@unocss/reset@66.10.5':
+    resolution: {integrity: sha512-AElCFeXaK+3a8LX1obMSmhYhhlRKDXXVngn0Kse7XwxHOItQqpncTU6ZKUeNNGmeoE0Vwc6MfrLw6eGE7EEpgw==}
 
   '@unocss/rollup@66.10.2':
     resolution: {integrity: sha512-ebpMrquS+WR6lH7GGCRieOE0kt5Ig1GLpdWewe24Jp1HMXLHMLNgJjVPo9BNLdjLluhBL6u3SSqICSNz+5kIwA==}
@@ -4459,7 +4459,7 @@ snapshots:
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
       '@jridgewell/trace-mapping': 0.3.31
 
   '@jridgewell/remapping@2.3.5':
@@ -4476,7 +4476,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.31':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   '@json-render/core@0.20.0(zod@4.5.4)':
     dependencies:
@@ -5605,7 +5605,7 @@ snapshots:
       '@unocss/core': 66.10.2
       '@unocss/preset-wind3': 66.10.2
 
-  '@unocss/reset@66.10.2': {}
+  '@unocss/reset@66.10.5': {}
 
   '@unocss/rollup@66.10.2':
     dependencies:
@@ -6826,7 +6826,7 @@ snapshots:
 
   magic-string@0.30.21:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/sourcemap-codec': 1.6.0
 
   magic-string@1.2.3:
     dependencies:
