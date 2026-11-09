@@ -1,7 +1,6 @@
-onlyBuiltDependencies:
-  - '@parcel/watcher'
-  - esbuild
-  - msw
-  - simple-git-hooks
-  - unrs-resolver
-useNodeVersion: 22.15.1
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  msw: true
+  simple-git-hooks: true
+  unrs-resolver: true
