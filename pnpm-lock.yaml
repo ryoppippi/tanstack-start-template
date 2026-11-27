@@ -186,7 +186,7 @@ importers:
   .:
     dependencies:
       '@tanstack/react-query':
-        specifier: ^5.108.3
+        specifier: ^5.108.4
         version: 5.108.4(@types/react@19.3.0)(react@19.3.1)
       '@tanstack/react-router':
         specifier: 1.170.46
