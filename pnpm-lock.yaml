@@ -238,7 +238,7 @@ importers:
         specifier: latest
         version: 1.4.5
       '@types/react':
-        specifier: ^19.3.2
+        specifier: ^19.3.3
         version: 19.3.3
       '@types/react-dom':
         specifier: ^19.3.0
